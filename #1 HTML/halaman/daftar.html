@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Halaman Pendaftaran</h1>
+    <a href="../index.html">Kembali</a>
+    <form action="home.html" method="post">
+      <label>Full Name</label> <br />
+      <input type="text" name="fullname" /> <br />
+      <br />
+      <label>Usia</label> <br />
+      <input type="number" name="usia" /> <br />
+      <br />
+      <label>Password</label> <br />
+      <input type="password" name="pass" /> <br />
+      <br />
+      <label>Warga Negara</label> <br />
+      <input type="radio" name="wn" value="1" /> WNI <br />
+      <input type="radio" name="wn" value="2" /> WNA <br />
+      <br />
+      <label>Todo List</label> <br />
+      <input type="checkbox" name="todo" value="1" />Meeting <br />
+      <input type="checkbox" name="todo" value="2" />Ngajar <br />
+      <input type="checkbox" name="todo" value="3" />Ngoding <br />
+      <br />
+      <label>Kota Kelahiran</label> <br />
+      <select name="kota">
+        <option value="1">Makassar</option>
+        <option value="2">Bandung</option>
+        <option value="3">Medan</option>
+        <option value="4">Suraya</option>
+      </select>
+      <br />
+      <br />
+      <label>Biodata</label> <br />
+      <textarea name="bio" cols="10" rows="5"></textarea> <br />
+      <br />
+      <input type="submit" value="kirim" />
+    </form>
+  </body>
+</html>
